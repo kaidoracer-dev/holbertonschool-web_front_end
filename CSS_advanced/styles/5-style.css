@@ -9,6 +9,9 @@ a {color: #161616;}
 .section-tagline {color: #d73953;}
 
 :root {
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
@@ -34,3 +37,7 @@ h1, h2, h3, h4, h5, h6 {font-family: var(--);}
 html {font-size: 62.5%;}
 
 body {font-size: var(--font-size-medium);}
+
+body {font-weight: var(--font-weight-regular);}
+
+h1, h2, h3, h4, h5, h6 {font-family: var(--font-weight-bold);}
