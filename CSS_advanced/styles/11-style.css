@@ -11,6 +11,7 @@ a {
 .visually-hidden {display: none;}
 .card-category {color: #d73953;}
 .section-tagline {
+    color:#d73953;
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
