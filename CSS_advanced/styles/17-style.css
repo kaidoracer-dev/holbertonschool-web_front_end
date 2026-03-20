@@ -65,9 +65,36 @@ a[href]:active {
 .footer {
     padding: var(--footer-padding);
 }
-
+nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav .nav-items {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
 
 :root {
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-display: inline-bloc;
+    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-link-hover: var(--color-primary);
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
@@ -75,7 +102,7 @@ a[href]:active {
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
     --section-title-margin: 0;
-    --section-title-color:var(--color-black);
+    --section-title-color: var(--color-black);
     --section-tagline-transform: uppercase;
     --section-header-align: center;
     --line-height-small: 1.2;
