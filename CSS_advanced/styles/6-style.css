@@ -19,8 +19,8 @@ a {color: #161616;}
     --font-size-xx-large: 4.8rem;
     --font-size-medium: 1.6rem;
 
-    --font-family-base: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-family-title: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-family-base: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-family-title: "Raleway", "Helvetica Neue",Helvetica,Arial,sans-serif;
 
     --color-primary: #d73953;
     --color-black: #090909;
